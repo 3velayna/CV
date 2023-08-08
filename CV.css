@@ -1,0 +1,59 @@
+body {
+    background-color:rebeccapurple;
+    print-color-adjust: exact;
+}
+
+main {
+    width: 8.5in;
+    height: 11in;
+    margin: 0;
+    border:none !important;
+    padding:1rem;
+}
+
+.card {
+    background-color:#DEDDDB;
+}
+
+.rectangulo-ch {
+
+     background: #8BA16F;
+     border-radius:1rem;
+     display:flex;
+     gap:13rem;
+     margin:0 2rem;
+     padding: 1rem;
+}
+
+.rectangulo-ch img {
+    height: 100%;
+}
+
+.photo{
+    background-color:#CABA89;
+    border-radius:0 0 0 4rem;
+    padding: 3px;
+}
+
+.name {
+    font-family:'Times New Roman', serif;
+    font-style:italic;
+    margin:0 2rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.rectangulo {
+
+    background:#ABAE77;
+    border-radius:0 4rem 4rem 0;
+    margin:3rem -1rem ;
+}
+
+.cuadrado {
+
+    background: #8BA16F;
+    border-radius:4rem 4rem 0 0;
+    margin:22rem 1rem ;
+}
+
