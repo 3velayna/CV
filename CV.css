@@ -6,54 +6,89 @@ body {
 main {
     width: 8.5in;
     height: 11in;
-    margin: 0;
-    border:none !important;
-    padding:1rem;
+    padding:1.5rem;
 }
 
 .card {
     background-color:#DEDDDB;
+    position:relative;
+    z-index: 0;
+    display:flex;
+    flex-direction:column;
 }
 
 .rectangulo-ch {
-
+     height:1rem;
      background: #8BA16F;
      border-radius:1rem;
      display:flex;
-     gap:13rem;
+     gap:2rem;
      margin:0 2rem;
      padding: 1rem;
+     align-items:center;
+     width:55%;
 }
 
 .rectangulo-ch img {
     height: 100%;
 }
 
-.photo{
+.atardecer {
+    position:absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    width:100%;
+    opacity:.18;
+}
+
+/*.photo{
+    max-width:35%;
+    aspect-ratio:1;
     background-color:#CABA89;
     border-radius:0 0 0 4rem;
-    padding: 3px;
-}
+    position:absolute;
+    right:0;
+    top:0;
+    overflow:hidden;
+}*/
 
 .name {
     font-family:'Times New Roman', serif;
     font-style:italic;
-    margin:0 2rem;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 5rem;
+    margin:0;
 }
 
 .rectangulo {
-
+    width:80%;
+    height:35%;
     background:#ABAE77;
     border-radius:0 4rem 4rem 0;
-    margin:3rem -1rem ;
+    display:flex;
+    margin:4.5rem 0 0 -1.5rem;
+}
+
+.letter {
+    display:flex;
+    flex-direction:column;
+}
+
+.edu-exp {
+    display:flex;
+    margin:.25rem;
 }
 
 .cuadrado {
-
+    width:40%;
+    height:20%;
     background: #8BA16F;
     border-radius:4rem 4rem 0 0;
-    margin:22rem 1rem ;
+    position:absolute;
+    left:2rem;
+    overflow:hidden;
+    bottom:0rem;
+    display:flex;
 }
 
